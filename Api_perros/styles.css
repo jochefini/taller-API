@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dea94f;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: url('imagenes/huella.png'), auto;
+    
+}
+
+h1 {
+    color: #e6e864;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #e6e864;
+    background-color: #e56c0f;
+    border: none;
+    border-radius: 5px;
+    cursor: url('imagenes/huella.png'), auto;;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b32a00;
+}
+
+#dog-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
